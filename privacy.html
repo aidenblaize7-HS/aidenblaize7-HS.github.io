@@ -12,16 +12,20 @@
 </head>
 <body>
 <h1>shortsscout Privacy Policy</h1>
-<p>Last updated: 2026-09-29</p>
+<p>Last updated: 2026-09-30</p>
 
 <h2>What the app accesses</h2>
-<p>With the channel owner's permission, shortsscout uses read-only Google scopes
-(<code>yt-analytics.readonly</code>, <code>youtube.readonly</code>) to read the list of the owner's own uploaded videos
-and their aggregate statistics: views, engaged views and average view percentage.</p>
+<p>With the channel owner's permission, shortsscout and its uploader (shortsforge-uploader) use these Google scopes,
+only on channels owned by the same person:</p>
+<ul>
+<li><code>youtube.upload</code>: upload the owner's own finished videos to the owner's own channel, after the owner has reviewed and approved each one.</li>
+<li><code>youtube.force-ssl</code>: post the owner's own comment (sources for the video) on the owner's own video.</li>
+<li><code>yt-analytics.readonly</code>, <code>youtube.readonly</code>: read the owner's own video list and aggregate statistics (views, engaged views, average view percentage).</li>
+</ul>
 
 <h2>How the data is used</h2>
 <p>The statistics are written to the owner's private Notion workspace to compare the performance of the owner's videos.
-The app does not access viewers' personal information, comments or private messages, and does not modify, upload or delete anything.</p>
+The app does not access viewers' personal information or other channels, does not read viewers' comments, and does not delete anything.</p>
 
 <h2>Sharing and storage</h2>
 <p>Data is not sold, shared with third parties or used for advertising. The OAuth token is stored only as an encrypted
@@ -38,6 +42,6 @@ including the Limited Use requirements, and to the <a href="https://www.youtube.
 
 <hr>
 <h2 lang="ko">개인정보처리방침 (요약)</h2>
-<p lang="ko">shortsscout는 채널 소유자의 동의를 받아 읽기 전용 권한으로 본인 채널의 영상 목록과 집계 통계(조회수, 적격 조회, 평균 시청 비율)만 읽고, 본인의 비공개 Notion에 기록합니다. 시청자 개인정보·댓글에는 접근하지 않으며, 제3자에게 제공하거나 광고에 쓰지 않습니다. 권한은 언제든 위 링크에서 해제할 수 있습니다.</p>
+<p lang="ko">shortsscout는 채널 소유자의 동의를 받아 동의받은 권한으로 본인이 검토·승인한 영상만 본인 채널에 업로드하고, 본인 영상에 출처 댓글을 달며, 본인 채널의 영상 목록과 집계 통계(조회수, 적격 조회, 평균 시청 비율)를 읽어 본인의 비공개 Notion에 기록합니다. 시청자 개인정보와 다른 채널에는 접근하지 않으며, 제3자에게 제공하거나 광고에 쓰지 않습니다. 권한은 언제든 위 링크에서 해제할 수 있습니다.</p>
 </body>
 </html>
